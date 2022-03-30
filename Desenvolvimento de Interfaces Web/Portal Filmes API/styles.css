@@ -1,0 +1,32 @@
+
+
+.tudo{
+    background: -webkit-linear-gradient( rgb(82, 1, 119), rgb(223, 201, 0), rgb(0,178,223));
+    font-family:sans-serif;
+}
+.header{
+    margin-bottom: 10px;    
+}
+.white{
+    color:white;
+}
+.margem-left{
+    margin-left: 10px;
+}
+.card{
+    margin-bottom: 10px;
+    
+}
+
+.pesquisa{
+    margin-bottom:10px;
+}
+
+@media screen and (min-width:1000px){
+.card {
+    flex-direction: row;
+  }
+  .card img {
+    width: 30%;
+  }
+}

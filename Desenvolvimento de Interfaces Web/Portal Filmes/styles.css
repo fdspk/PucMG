@@ -1,0 +1,229 @@
+.tudo{
+    background: -webkit-linear-gradient( rgb(82, 1, 119), rgb(223, 201, 0), rgb(0,178,223));
+    font-family:sans-serif;
+}
+.header{
+    margin-bottom: 10px;    
+}
+
+@media screen and (min-width:601px) and (max-width:1200px){
+    .sinopse, .sinopse1{
+        font-size:20px !important;
+    }
+}
+
+.logo, .logo-f{
+  background: -webkit-linear-gradient(rgb(101, 13, 173), rgb(207, 169, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:767px){
+    .logo{
+        font-size:25px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991.5px){
+    .logo{
+        font-size:55px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1198px){
+    .nav-link{
+        font-size:11px
+    }
+}
+
+@media screen and (min-width:1400px){
+    .nav-link{
+        font-size:21px;
+    }
+}
+
+.lancamentos{
+    background-color: rgba(219, 221, 221, 0.404);
+    padding:10px;
+    margin-bottom: 10px;
+    min-height:530px;
+}
+
+@media screen and (max-width:600px){
+    .lancamentos{
+        min-height:100%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:1000px){
+    .lancamentos{
+        min-height:930px;
+    }
+}
+
+
+
+
+
+.card-img-top{
+    max-width:100%;
+   
+}
+
+.card{
+    margin-bottom: 10px;
+    
+}
+
+.card img{
+    max-height:450px;
+}
+
+.botao{
+    margin-top:30px;
+    margin-bottom:10px;
+    text-align: right;
+}
+
+.footer{
+    background-color:black;
+    color: white;
+    margin-top:10px;
+    padding-top:10px;
+}
+.texto_footer{
+    text-align: center;
+    font-size:0.8em;
+}
+
+.logo_footer{
+    text-align: center;
+}
+
+.novis{
+    margin-bottom: 10px;
+}
+
+.video{
+    width:100%;
+    height: 100%;
+}
+
+@media screen and (max-width:600px){
+    .video{
+        height:200px;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:601px){
+    .video{
+        height:350px;
+    }
+}
+
+.carousel-inner{
+    padding-bottom:30px;
+}
+
+.sinopse{
+    font-size:smaller;
+    text-align: justify;
+}
+
+.sinopse1{
+    font-size: medium;
+    text-align: justify;
+}
+
+.titulo_centro{
+    text-align: center;
+    margin-bottom:20px;
+    background-color:rgba(194, 194, 194, 0.555);
+    font-weight: bolder;
+    font-size:35px;
+
+
+    
+}
+
+.titulo{
+    margin-bottom:20px;
+    background-color:rgba(192, 192, 192, 0.596);
+    padding:5px;
+    font-weight: bolder;
+}
+
+.card_row{
+    margin-top: 10px;
+}
+
+.em_destaque{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.perfil_img{
+    max-width:80px;
+    border-radius: 50%;
+}
+
+.entrevistas_makingof{
+    background-color: rgba(219, 221, 221, 0.404);
+    padding:20px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.comment{
+    margin-bottom:30px;
+    text-align:center;
+}
+
+.video_entrevistas{
+    width:100%;
+}
+
+@media screen and (max-width:600px){
+    .video_entrevistas{
+        height:200px;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:601px){
+    .video_entrevistas{
+        height:150px;
+    }
+}
+
+.ultimas_avaliacoes, .novidades{
+    background-color:rgba(219, 221, 221, 0.726) ;
+    padding:20px;
+    margin-bottom: 20px;;
+}
+
+.container-fluid {
+    text-align: right !important;
+}
+
+.titulo_novis{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-secondary{
+    margin-bottom:5px;
+}
+.texto_justif{
+    text-align: justify;
+}
+
+@media screen and (max-width:600px){
+    .lermais{
+        display:none;
+    }
+    
+}
+@media screen and (min-width:601px){
+    .botao_lermais{
+        display:none;
+    }
+}

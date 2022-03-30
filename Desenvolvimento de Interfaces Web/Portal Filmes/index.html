@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<div class="tudo">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Fabiana Kraft">
+        <title>Portal Filmes</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+            integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <header class="container header">
+            <!--Menu-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo" href="#">PORTAL FILMES <i class="fas fa-film"></i></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Lançamentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Em destaque</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Avaliações</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Entrevistas e MakingOf</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Novidades</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisar filme"
+                                aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+
+        </header>
+
+        <main class="container main">
+            <section class="lancamentos">
+                <h1 class="titulo_centro">Lançamentos</h1>
+                <!--Caroussel-->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <iframe class="video" width="560" height="315"
+                                        src="https://www.youtube.com/embed/yzWWSKn_D14" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h1>Mortal Kombat</h1>
+                                    <div class="lermais">
+                                        <p class="sinopse">O imperador da Exoterra, envia seu
+                                        melhor guerreiro, Sub-Zero, para assassinar o jovem Cole Young. Ele vai em busca de Sonya Blade seguindo a indicação de Jax, um major das
+                                        Forças Especiais, que tem a mesma estranha marca de dragão com a qual Cole nasceu.
+                                        Ele treina com os experientes guerreiros, enquanto se prepara para lutar contra os
+                                        inimigos da Exoterra em uma batalha pelo universo.</p>
+                                    <p class="sinopse">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <b>Diretor:</b> Simon McQuoid
+                                        </div>
+                                        <div class="col-4">
+                                            <b>Roteiro:</b> Greg Russo, Dave Callaham
+                                        </div>
+                                        <div class="col-4">
+                                            <b>Estréia:</b> 23 de abr. de 2021
+                                        </div>
+                                    </div>
+                                    </p>
+                                    <p><b>Elenco:</b></p>
+                                    <p> Lewis Tan | Jessica McNamee | Josh Lawson</p>
+                                    <p>
+                                        <b>Avaliação:</b>
+                                    <div>
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="far fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+                                    </p>
+                                    </div>
+                                    
+                                    <div class="botao_lermais">
+                                        <button type="button" class="btn btn-dark">+ Ler mais</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <iframe class="video" width="560" height="315"
+                                        src="https://www.youtube.com/embed/4rHOV_AZjwk" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h1>Duna</h1>
+                                    <div class="lermais">
+                                            <p class="sinopse1">Em um futuro distante, planetas são comandados por casas nobres
+                                            que
+                                            fazem parte de um império feudal intergalático. Paul Atreides (Timothée
+                                            Chalamet) é
+                                            um jovem homem cuja família toma controle do planeta deserto Arrakis, também
+                                            conhecido como Duna. Sendo a única fonte da especiaria melange, a substância
+                                            mais
+                                            importante do cosmos, Arrakis se prova ser um planeta nem um pouco fácil de
+                                            governar.</p>
+                                        <p class="sinopse">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <b>Diretor:</b> Denis Villeneuve
+                                                </div>
+                                                <div class="col-4">
+                                                    <b>Roteiro:</b> Frank Herbert, Jon Spaihts
+                                                </div>
+                                                <div class="col-4">
+                                                    <b>Estréia:</b> 18 de dez. de 2021
+                                                </div>
+                                            </div>
+                                        </p>
+                                        <p><b>Elenco:</b></p>
+                                        <p> Timothée Chalamet | Rebecca Ferguson | Zendaya</p>
+                                        <p>
+                                            <b>Avaliação:</b>
+                                            <div>
+                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
+                                                    class="far fa-star"></i>
+                                            </div>
+                                         </p>
+                                    </div>
+
+                                    <div class="botao_lermais">
+                                        <button type="button" class="btn btn-dark">+ Ler mais</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <iframe class="video" width="560" height="315"
+                                        src="https://www.youtube.com/embed/Gm3o0bfGP3g" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h1>Viúva Negra</h1>
+                                    <div class="lermais">
+                                        <p class="sinopse1">No novo filme da Marvel Studios, "Viúva Negra", Natasha Romanoff
+                                        (Scarlett Johansson) precisa confrontar partes de sua história quando surge uma
+                                        conspiração perigosa ligada ao seu passado. Perseguida por uma força que não irá
+                                        parar até derrotá-la, Natasha terá que lidar com sua antiga vida de espiã, e
+                                        também
+                                        reencontrar membros de sua família que deixou para trás antes de se tornar parte
+                                        dos
+                                        Vingadores.</p>
+                                    <p class="sinopse">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <b>Diretora:</b> Cate Shortland
+                                        </div>
+                                        <div class="col-4">
+                                            <b>Roteiro:</b> Jac Schaeffer, Ned Benson
+                                        </div>
+                                        <div class="col-4">
+                                            <b>Estréia:</b> 1 de jul. de 2021
+                                        </div>
+                                    </div>
+                                    </p>
+                                    <p><b>Elenco:</b></p>
+                                    <p> Scarlett Johansson | Florence Pugh | David Harbour </p>
+                                    <p>
+                                        <b>Avaliação:</b>
+                                    <div>
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    </p>
+                                    </div>
+                                    
+                                    <div class="botao_lermais">
+                                        <button type="button" class="btn btn-dark">+ Ler mais</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <iframe class="video" width="560" height="315"
+                                        src="https://www.youtube.com/embed/Hn8GsjQTUiM" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h1>Invocação do mal 3</h1>
+                                    <div class="lermais">
+                                           <p class="sinopse">O filme revela uma história
+                                        de um desconhecido mal que chocou até os
+                                        experientes investigadores de atividades paranormais Ed e Lorraine Warren. Um
+                                        dos casos mais sensacionais de seus arquivos, começa com uma luta pela alma de um
+                                        garoto, depois os leva para
+                                        marcar a primeira vez na história dos Estados Unidos que um suspeito de assassinato alega
+                                        ter tido uma possessão demoníaca como defesa.</p>
+                                    <p class="sinopse">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <b>Diretor:</b> Michael Chaves
+                                        </div>
+                                        <div class="col-4">
+                                            <b>Roteiro:</b> David Leslie Johnson-McGoldrick
+                                        </div>
+                                        <div class="col-4">
+                                            <b>Estréia:</b> 03 de jun. de 2021
+                                        </div>
+                                    </div>
+                                    </p>
+                                    <p><b>Elenco:</b></p>
+                                    <p> Patrick Wilson | Vera Farmiga | Sterling Jerins</p>
+                                    <p>
+                                        <b>Avaliação:</b>
+                                    <div>
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="far fa-star"></i>
+                                    </div>
+                                    </p>
+                                    </div>
+
+                                    <div class="botao_lermais">
+                                        <button type="button" class="btn btn-dark">+ Ler mais</button>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="em_destaque">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-10">
+                        <h1 class="titulo">Em destaque</h1>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                        <!--dropdown-->
+                        <div class="dropdown">
+                            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categoria: Todos
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Aventura</a></li>
+                                <li><a class="dropdown-item" href="#">Romance</a></li>
+                                <li><a class="dropdown-item" href="#">Comédia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--cards-->
+                <div class="row card_row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="imagens/card1.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="imagens/card2.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="imagens/card3.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="imagens/card4.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <!--button-->
+                <div class="row">
+                    <div class="botao">
+                        <button type="button carregar_mais" class="btn btn-dark">+Carregar mais filmes</button>
+                    </div>
+                </div>
+
+            </section>
+            <section class="ultimas_avaliacoes">
+                <h1 class="titulo">Últimas avaliações</h1>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="row comment">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                                <img class="perfil_img" src="imagens/perfil1.jpg">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                                <h2>Maria Gonçalves</h2>
+                                <p class="sinopse"> <b>Avaliação: </b>Faz tempo que não escrevo, mas sobre esse Mulher
+                                    Maravilha 1984
+                                    preciso falar.
+                                    Porque erram tanto nos filmes da DC? Foi três estrelas pelos atores que são
+                                    maravilhosos, mas é um filme arrastado.</p>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="far fa-star"></i><i class="far fa-star"></i>
+                                <span>27/04/21</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="row comment">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                                <img class="perfil_img" src="imagens/perfil2.jpg">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                                <h2>Henrique da Silva</h2>
+                                <p class="sinopse"><b>Avaliação: </b>O Chamado da Floresta é daqueles filmes deliciosos
+                                    de
+                                    se assistir, consegue dosar muito bem a aventuras, comédia e o drama. Talvez a maior
+                                    estranheza que o filme passe seja o cão em CGI, mas, para mim não atrapalhou em nada
+                                    a
+                                    experiência.</p>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="far fa-star"></i>
+                                <span>27/04/21</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="row comment">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                                <img class="perfil_img" src="imagens/perfil3.jpg">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                                <h2>Sarah de Paula</h2>
+                                <p class="sinopse"><b>Avaliação: </b>Soul é lindíssimo. Tratar de um tema tão complexo e
+                                    subjetivo
+                                    de uma forma tão leve e bonita faz não é fácil. O filme é divertido, emocionante e
+                                    reflexivo na medida certa, com certeza mais uma grande acerto da Pixar.</p>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <span>27/04/21</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--button-->
+                <div class="row">
+                    <div class="botao">
+                        <button type="button carregar_mais" class="btn btn-dark">+Carregar mais avaliações</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="entrevistas_makingof">
+                <h1 class="titulo">Entrevistas e Making of</h1>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <iframe class="video_entrevistas" width="560" height="315"
+                            src="https://www.youtube.com/embed/w9ciA4rkOwg" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h2><b>Filme:</b> The Batman</h2>
+                        <p><b>Diretor: </b>Matt Reeves
+                            <b>Roteiro: </b> Peter Craig, Bob Kane
+                            <b>Estreia: </b>2022
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <iframe class="video_entrevistas" width="560" height="315"
+                            src="https://www.youtube.com/embed/ZbhXbAIumKA" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h2><b>Filme:</b> Godzilla vs. Kong</h2>
+                        <p><b>Diretor: </b>Adam Wingard
+                            <b>Roteiro: </b> Terry Rossio, Michael Dougherty
+                            <b>Estreia: </b>2021
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <iframe class="video_entrevistas" width="560" height="315"
+                            src="https://www.youtube.com/embed/WMqWfK8dsW0" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h2><b>Filme:</b> Tom e Jerry</h2>
+                        <p><b>Diretor: </b>Tim Story
+                            <b>Roteiro: </b> William Hanna, Joseph Barbera
+                            <b>Estreia: </b>2021
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="novidades">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                        <h1 class="titulo">Novidades</h1>
+                        <div class="row novis">
+                            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                                <img src="imagens/novidades1.PNG" class="card-img-top" alt="...">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+                                <h4><b>Matrix 4: Keanu Reeves volta ao set de filmagens</b></h4>
+                                <p class="texto_justif">O lançamento de Matrix 4 foi adiado, mas que as filmagens já foram retomadas. Flagras
+                                    do TMZ mostram Keanu Reeves em Berlim, set da nova fase das gravações.</p>
+                                <p><button type="button" class="btn btn-secondary">Hollywood</button>
+                                    <button type="button" class="btn btn-secondary">Ficção Científica</button>
+                                    <button type="button" class="btn btn-secondary">Trilogia</button>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row novis">
+                            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                                <img src="imagens/novidades2.PNG" class="card-img-top" alt="...">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+                                <h4><b>Falcão e o Soldado Invernal tem um inusitado easter-egg de WandaVision</b></h4>
+                                <p class="texto_justif">Os fãs estão curiosos para ver como a série vai se conectar com o restante das produções,
+                                    caçando diversos easter-eggs e referências.</p>
+                                    <p><button type="button" class="btn btn-secondary">Séries</button>
+                                        <button type="button" class="btn btn-secondary">Marvel Universe</button>
+                                        <button type="button" class="btn btn-secondary">Easter eggs</button>
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="row novis">
+                            <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+                                <img src="imagens/novidades3.PNG" class="card-img-top" alt="...">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+                                <h4 class="titulo_novis"><b>Oscar 2021: Confira os melhores memes e gifs da premiação</b></h4>
+                                <p class="texto_justif">De dancinha da Glenn Close a alfinetada da vovó de Minari em Brad Pitt, a cerimônia teve de tudo!</p>
+                                <p><button type="button" class="btn btn-secondary">Oscar</button>
+                                    <button type="button" class="btn btn-secondary">Premiação</button>
+                                    <button type="button" class="btn btn-secondary">Hollywood</button>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <h1 class="titulo">Sobre</h1>
+                        <p class="texto_justif">Site de Portal de Filmes construído para a disciplina Desenvolvimento de Interfaces Web, no
+                            curso
+                            Engenharia de Software da PUC Minas</p>
+
+                        <h1 class="titulo">Editorial</h1>
+                        <p><i class="fas fa-user"></i> <b>Redação:</b> Fabiana Kraft</p>
+                        <p><i class="fas fa-user"></i> <b>Pesquisa:</b> Fabiana Kraft</p>
+                        <p><i class="fas fa-user"></i> <b>Gerente chefe:</b> Fabiana Kraft</p>
+                        <h2 class="titulo">Redes sociais</h2>
+                        <h1><i class="fab fa-facebook-square"></i> <span><i class="fab fa-twitter-square"></i></span>
+                            <span><i class="fab fa-instagram-square"></i></span>
+                        </h1>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="container footer">
+            <div class="row">
+                <div class="col-12 col-sm-10 col-md-10 col-lg-10">
+                    <div class="texto_footer">
+                        <p>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b></p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+                    <div class="logo_footer">
+                        <h5 class="logo-f">PORTAL FILMES <i class="fas fa-film"></i></h1>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+
+    </body>
+</div>
+
+</html>
