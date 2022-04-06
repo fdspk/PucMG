@@ -1,0 +1,109 @@
+.logo{
+    max-width:150px;
+}
+
+.banner img{
+    max-width: 100%;
+}
+.banner{
+    margin:0px;
+}
+.texto_principal{
+    background-color:rgb(247, 230, 230);
+    padding:20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.texto_principal h1{
+    color:rgb(173, 0, 0)
+}
+
+.card_area img{
+    max-width: 100%;
+    margin-bottom:20px;
+}
+
+.cor1{
+    background-color:rgb(231, 202, 176) ;
+    padding:20px;
+    min-height:245px;
+}
+
+.infos h1{
+    font-size: 1.2em;
+}
+
+.cor1 img{
+    max-width:100%;
+}
+
+.footer{
+    background-image: url(imagens/bg1.jpg);
+    background-size:cover;
+    background-position: 0px -300px;
+    background-repeat: no-repeat;
+    color:white;
+    padding:20px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.header{
+    background-image: url(imagens/bg1.jpg);
+    background-size:cover;
+    background-position: 0px -250px;
+    background-repeat: no-repeat;
+    color:white;
+    padding:15px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.menu1{
+    position:absolute;
+    right:200px;
+    top:50px;
+}
+
+.menu1 a{
+    text-decoration: none;
+    color:white;
+}
+
+@media screen and (max-width:600px){
+    .header{
+        background-position: 0px -50px;
+    }
+
+    .logo{
+        max-width:90px;
+    }
+
+    .menu1{
+        display:none;
+    }
+
+    .footer{
+        background-position: 0px -50px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1200px){
+    .header{
+        background-position: 0px -150px;
+    }
+
+    
+
+    .logo{
+        max-width:90px;
+    }
+
+    .menu1{
+        display:none;
+    }
+
+    .footer{
+        background-position: 0px -150px;
+    }
+}
