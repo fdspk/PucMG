@@ -1,0 +1,38 @@
+
+/*Seletores de elementos*/
+p {
+    font-family: Arial;
+    background-color:lightgrey;
+}
+
+/*Seletores de atributos id*/
+#menu-principal{
+    background-color: lightpink;
+}
+
+/*Seletores de atributos class*/
+.leia-mais{
+    text-align:right;
+}
+/*Seletores de atributos quaisquer*/
+
+[src]{
+    float:right;
+}
+
+/*Seletores de atributos pseudo-classes*/
+p:hover{
+    color: green;
+}
+
+/*Seletores de atributos pseudo-elementos*/
+
+p::first-letter{
+    font-size: xx-large;
+}
+
+/*Seletores universais*/
+
+*{
+    margin:0;
+}
