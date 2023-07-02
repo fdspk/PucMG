@@ -7,4 +7,5 @@ Recebeu destaque na revista SPRINTI volume 4, disponível no link https://www.ca
 https://uaipets.fabianakraft.repl.co
 # Wireframe
 https://www.figma.com/file/UzBgP0sgMe2DKWFaa09uwV/Wireframe?node-id=0%3A1
-<p><img scr="https://github.com/fdspk/PucMG/blob/main/TI%20I%20UaiPets/UAIPets.png"></p>
+
+<p align="center"><img src="https://github.com/fdspk/PucMG/blob/main/TI%20I%20UaiPets/UAIPets.png"></p>
